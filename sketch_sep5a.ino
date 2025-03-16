@@ -3,7 +3,7 @@
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
  
-// Define DHT sensor type and GPIO pin
+// Define DHT sensor type and GPIO pin and is used for sensing the tempreature and humidity
 #define DHTTYPE DHT11  // Change to DHT22 if using DHT22
 #define DHTPIN D4          // GPIO pin connected to the DHT sensor
  
